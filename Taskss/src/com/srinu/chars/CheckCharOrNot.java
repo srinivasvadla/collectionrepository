@@ -10,6 +10,8 @@ public class CheckCharOrNot {
 		System.out.println("enter  the chars ");
 		char c = sc.next().charAt(0);
 
+		
+		//sys
 		if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) {
 
 			System.out.println("given umer is character::" + c);
