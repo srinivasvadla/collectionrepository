@@ -1,0 +1,50 @@
+package com.srinu.strings;
+
+public class StringComparison {
+
+	private String m = "srinu";
+	private String n = "srinu";
+
+	public StringComparison(String m) {
+
+		this.m = m;
+
+	}
+
+	public StringComparison(String n, int f) {
+
+		this.n = n;
+
+	}
+
+	public static void main(String[] args) {
+
+		String s = "srinu";
+		String r = "srinu";
+
+		System.out.println(s.equals(r));// true
+
+		System.out.println(s == r);// false
+
+		StringBuilder b = new StringBuilder("srinu");
+		StringBuilder c = new StringBuilder("srinu");
+
+		System.out.println(b.equals(c));// false
+
+		String str = new String("srinu");
+		String str1 = new String("srinu");
+		System.out.println(str.equals(str1));// true
+
+		StringComparison a = new StringComparison("srinu");
+		StringComparison f = new StringComparison("srinu");
+		System.out.println(a.equals(b));// false
+		System.out.println(a == f);
+
+	}
+	
+	/* public String toString() {
+	        return getClass().getName() + "@" + Integer.toHexString(hashCode());
+	    }
+
+*/
+}

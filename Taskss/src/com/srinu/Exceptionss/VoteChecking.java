@@ -1,0 +1,29 @@
+package com.srinu.Exceptionss;
+
+public class VoteChecking {
+
+	public void name(String name, int age) throws UserDefined
+
+	{
+
+		if ( age <=18) {
+			throw new UserDefined("age is very samll");
+
+		} else {
+			System.out.println("you are   eligible to vote");
+		}
+
+	}
+
+	public static void main(String[] args) throws UserDefined  {
+
+
+		VoteChecking v = new VoteChecking();
+		 v.name("srinvas", 19);
+
+	}
+	
+
+
+	
+}

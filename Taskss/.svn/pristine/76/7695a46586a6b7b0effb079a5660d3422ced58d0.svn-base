@@ -1,0 +1,16 @@
+package com.srinu.interfaces;
+
+public class A_interface implements NormalClass  {
+
+	public static void main(String[] args) {
+		A_interface a= new A_interface();
+		
+	}
+
+	@Override
+	public void m1() {
+		
+		
+	}
+	
+}

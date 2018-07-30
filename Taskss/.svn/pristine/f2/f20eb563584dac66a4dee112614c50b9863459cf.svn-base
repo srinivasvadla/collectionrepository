@@ -1,0 +1,8 @@
+package com.srinu.interfaces;
+
+public interface NormalClass {
+
+	 public  void m1(); 
+
+
+}
