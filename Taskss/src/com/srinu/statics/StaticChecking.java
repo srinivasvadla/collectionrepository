@@ -11,7 +11,7 @@ public class StaticChecking {
 	
 
 	// static block
-	// static block executes the moment when the class is loading
+	// static block executes the moment when the class is loading into the jvm
 	static {
 
 		System.out.println("static variable valus of  L is ::"+l);
