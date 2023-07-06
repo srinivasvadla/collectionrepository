@@ -10,7 +10,7 @@ public class CheckCharOrNot {
 		System.out.println("enter  the chars ");
 		char c = sc.next().charAt(0);
 
-		
+		System.out.println("Testing thegir account");
 		//sys
 		if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) {
 
