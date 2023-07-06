@@ -5,7 +5,7 @@ package com.srinu.classes;
 public class FirstClass_05_2018 {
 	public static void main(String[] args) 
 	{
-// Testing for git account
+// Testing for git account initial check
 		// create the object
 		FirstClass_05_2018 f = new FirstClass_05_2018();
 		f.local_variables();
